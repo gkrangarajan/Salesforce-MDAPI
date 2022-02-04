@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+ <targets>
+    <target>lightning__RecordPage</target>
+  </targets>
+  <targetConfigs>
+   <targetConfig targets="lightning__RecordPage">
+     <property name="NoOfRecords" type="Integer" description="Number of records to display"></property>
+     <property name="sortOption" type="String" description="Select sort order" datasource="Contact_First_Name__c, Contact_Last_Name__c"></property>
+
+   </targetConfig>
+   </targetConfigs>
+</LightningComponentBundle>
